@@ -1,4 +1,4 @@
-# 6. Magnitudes fundamentales eléctricas
+# Magnitudes fundamentales eléctricas
 
 ![Magnitudes](media/magnitudes.png){ align=right width=50% }
 
@@ -11,7 +11,7 @@ Cuando analizamos un circuito eléctrico es necesario conocer tres característi
 En la figura se ven reflejados estos tres conceptos. Es un circuito elemental al cual se le conectó un receptor (lámpara). La corriente llega gracias a un conductor eléctrico (cable).
 
 
-## 6.1. Voltaje o Tensión eléctrica $(V)$
+## Voltaje o Tensión eléctrica $(V)$
 
 !!! Abstract "Voltaje"
     ![Voltaje](media/leyohm.jpg){ align=right width=25% }
@@ -29,7 +29,7 @@ La unidad de medida del Voltaje ($V$) es el **voltio** ($v$). Por ejemplo:
 
 $$V = 4\; v$$
 
-## 6.2. Resistencia eléctrica $(R)$
+## Resistencia eléctrica $(R)$
 
 !!! Abstract "Resistencia eléctrica"
     ![Resistencia](media/resistencia3.gif){ align=right width=30% }
@@ -72,7 +72,7 @@ $$
         * longitud
         * sección.
 
-## 6.3. Intensidad de Corriente $(I)$
+## Intensidad de Corriente $(I)$
 
 !!! abstract " Intensidad de corriente"
     ![Intensidad de coriente](media/intensidad.gif){ align=right width=40% }

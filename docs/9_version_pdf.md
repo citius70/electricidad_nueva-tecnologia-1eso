@@ -1,0 +1,1 @@
+Haz [clic aquí](/pdf/document.pdf) para ver este curso en formato **pdf**.

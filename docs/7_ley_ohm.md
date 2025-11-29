@@ -1,4 +1,4 @@
-# 7. Ley de Ohm
+# Ley de Ohm
 
 ![George Ohm](media/george_ohm.jpg){ align=right width=20% }
 
@@ -13,7 +13,7 @@ Comprobó que:
 Fruto de esta experimentación, en 1827 enunció lo que conocemos como **Ley de Ohm**, que dice:
 
 !!! info "Ley de Ohm"
-La **Intensidad de corriente** ($I$) que circula por un circuito es directamente proporcional al **Voltaje** ($V$) aplicado e inversamente proporcional a la **Resistencia eléctrica** ($R$) del circuito.
+    La **Intensidad de corriente** ($I$) que circula por un circuito es directamente proporcional al **Voltaje** ($V$) aplicado e inversamente proporcional a la **Resistencia eléctrica** ($R$) del circuito.
 
 La **Ley de Ohm** se puede formalizar mediante la expresión matemática siguiente:
 

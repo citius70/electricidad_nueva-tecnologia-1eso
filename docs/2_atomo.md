@@ -1,8 +1,8 @@
-# 1. La estructura del átomo :simple-electron:
+# La estructura del átomo
 
 ![Átomo](media/atomo.png){ align=right width=300px }
 
-Los fenómenos eléctricos tiene su origen en la **estructura interna de la materia**, que está formada por partículas diminutas llamadas **átomos**. Los átomos **son los componentes básicos de toda la materia que nos rodea y determinan sus propiedades**. Aunque parecen indivisibles a simple vista, los átomos están formados por dos **zonas** (núcleo y corteza) que albergan tres tipos de **partículas subatómicas**:
+Los fenómenos eléctricos tiene su origen en la **estructura interna de la materia**, que está formada por partículas diminutas llamadas **átomos** :simple-electron:. Los átomos **son los componentes básicos de toda la materia que nos rodea y determinan sus propiedades**. Aunque parecen indivisibles a simple vista, los átomos están formados por dos **zonas** (núcleo y corteza) que albergan tres tipos de **partículas subatómicas**:
 
 
 
@@ -20,13 +20,17 @@ Los fenómenos eléctricos tiene su origen en la **estructura interna de la mate
 
 Vamos a estudiar con atención las partículas subatómicas constituyentes del átomo y la facultad de moverse que tienen los electrones.
 
-## 1.1. Carga eléctrica: positiva, negativa y neutra.
+## Carga eléctrica: positiva, negativa y neutra.
 
 Las subpartículas que forman el átomo tienen distinta carga eléctrica:
 
-- Los electrones tienen carga negativa (-).
-- Los protones tienen carga positiva (+).
-- Los neutrones no tienen carga.
+* Zona NÚCLEO:
+    * Los **protones** tienen carga positiva ($p^+$).
+    * Los **neutrones** no tienen carga ($n$).
+* Zona CORTEZA:
+    * Los **electrones** tienen carga negativa ($e^-$).
+
+    
 
 Es importante saber que **dos cargas del mismo signo se repelen**. Por el contrario, **dos cargas de diferente signo se atraen**.
 
@@ -37,7 +41,7 @@ Algunos átomos presentan tendencia a capturar o a perder electrones, lo que pro
 - Si un átomo captura electrones queda cargado negativamente (**ión negativo**).
 - En cambio, si pierde electrones, queda cargado positivamente (**ión positivo**).
 
-## 1.2. Fuerzas de atracción y repulsión
+## Fuerzas de atracción y repulsión
 
 ![Cargas](media/cargas.png){ align=right width=30% } 
 

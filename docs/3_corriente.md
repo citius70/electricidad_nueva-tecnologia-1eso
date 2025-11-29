@@ -1,6 +1,6 @@
-# 2. La corriente eléctrica ⚡
+# La corriente eléctrica
 
-!!! note "Definición de Corriente Eléctrica"
+!!! note "Definición de Corriente Eléctrica ⚡"
     La **corriente eléctrica** es el movimiento ordenado de **electrones** a lo largo de un cuerpo en un mismo sentido.
 
 ![CorrienteNo](media/corriente_elec_no.gif){ align=right width=300px }
@@ -20,7 +20,7 @@ Es como si los electrones fueran coches en una carretera, moviéndose todos en l
 
 
 
-## 2.1. Generadores eléctricos
+## Generadores eléctricos
 
 ![Corriente](media/corriente_elec.png){ align=right width=300px }
 

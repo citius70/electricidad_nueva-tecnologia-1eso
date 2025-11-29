@@ -1,4 +1,4 @@
-# 4. El circuito eléctrico 💡
+# El circuito eléctrico 
 
 ![Circuito](media/circuito.gif){ align=right width=300px }
 
@@ -15,7 +15,7 @@ Por tanto, para que se produzca corriente eléctrica hace falta:
 Entonces ya podemos definir lo que es un circuito eléctrico:
 
 
-!!! note "Definición de Circuito Eléctrico"
+!!! note "Definición de Circuito Eléctrico 💡"
     Un **circuito eléctrico** se puede definir de dos formas:
     
     * un **camino cerrado** por el que circulan los electrones.

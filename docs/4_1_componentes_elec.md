@@ -1,4 +1,4 @@
-# 4.1. Componentes eléctricos
+# Componentes eléctricos
 
 ![Circuito](media/circuito_1.jpg){ align=right width=40% }
 
@@ -11,7 +11,7 @@ Como vimos en el apartado anterior el circuito eléctrico está formado por un c
 4. Elementos de control o maniobra
 5. Elementos de protección
 
-## 4.1.1. Generadores eléctricos
+## Generadores eléctricos
 
 !!! info "Definición de **generador eléctrico**"
     Los **generadores** son los componentes eléctricos que producen o generan la corriente eléctrica.
@@ -28,7 +28,7 @@ Ejemplos de generadores son: las pilas de los dispositivos eléctricos, las bate
 
 
 
-## 4.1.2. Conductores eléctricos
+## Conductores eléctricos
 
 !!! info "Definición de **conductor eléctrico**"
     Los **conductores** son los componentes eléctricos que sirven para conectar los demás componentes y para que circulen por ellos los electrones (la corriente eléctrica).
@@ -40,7 +40,7 @@ Son los cables o láminas metálicas que unen el generador con los receptores y 
 
 En los hilos y cables se utiliza el **cobre** por sus propiedades: es *dúctil* (puede estirarse en hilos sin romperse) y excelente *conductor de la electricidad*. Además, están recubiertos de plástico porque este material es aislante y permite manipular los cables eléctricos sin riesgo de recibir descargas.
 
-## 4.1.3. Receptores eléctricos
+## Receptores eléctricos
 
 !!! info "Definición de **receptor eléctrico**"
     Los **receptores** son los componentes eléctricos a los que les llega la energía eléctrica y la transforma en otro tipo de energía útil (luminosa, cinética, sonora...). 
@@ -115,7 +115,7 @@ Su **símbolo eléctrico** es:
 
 ![zumbador](media/simbolo_zumbador.png){ align=center width=10% style="display: block; margin: 0 auto;" }
 
-## 4.1.4. Elementos de maniobra o de control
+## Elementos de maniobra o de control
 
 !!! info "Definición de **elemento de control**"
     Los **elementos de maniobra** sirven para conectar y desconectar el circuito a nuestra voluntad o dirigir la corriente por distintas ramas del circuito.
@@ -181,7 +181,7 @@ Su **símbolo eléctrico** es:
 
 ![Conmutador](media/simbolo_conmutador.png){ align=center width=15% style="display: block; margin: 0 auto;" }
 
-## 4.1.5. Elementos de protección
+## Elementos de protección
 
 !!! info "Definición de **elementos de protección**"
     Son elementos que protegen a los usuarios o a otros componentes cuando hay subidas inesperadas de tensión. 

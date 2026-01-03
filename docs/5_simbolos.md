@@ -15,3 +15,8 @@ Una vez conocidos los símbolos eléctricos por separado podremos representar un
 **Ejemplo**: Circuito formado por una pila, una bombilla y un interruptor.
 
 ![Esquema](media/esquema.png){ align=center width=50% }
+
+### Ejemplos
+
+![Esquema](img/esquema.png){ align=center width=100% }
+

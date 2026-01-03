@@ -10,7 +10,7 @@ style: |
   /* Fondo general estilo Material Design */
   section {
 
-    background: #5587b50d; /* gris claro */
+    background: #0b529508; /* gris claro */
     color: #212121; /* texto oscuro */
     font-size: 30px;
     font-family: 'Open sans', 'Helvetica', sans-serif;
@@ -156,9 +156,9 @@ style: |
     color: #616161;
   }
 ---
-# ⚡ Fundamentos de la Electricidad
+# Fundamentos de la Electricidad ⚡
 
-## Un Viaje desde el Átomo hasta la Ley de Ohm
+## Un viaje desde el átomo hasta la Ley de Ohm
 
 _Una forma de energía cómoda, limpia y fácil de transformar en luz, calor o movimiento_.
 

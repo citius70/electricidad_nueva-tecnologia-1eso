@@ -1,31 +1,51 @@
-site_name: Electricidad básica
+site_name: ELECTRICIDAD BÁSICA - 1º ESO
+site_description: Curso de electricidad básica para estudiantes de 1º de ESO.
 nav:
-  - Inicio: index.md
-  - Introducción a la electricidad: 1_introduccion.md
-  - El átomo::
-    - Estructura del átomo: 2_atomo.md
-    - Experimenta: 2_1_experimenta.md
-  - La corriente eléctrica: 3_corriente.md
-  - El circuito eléctrico::
-    - Definición y características: 4_circuito_elec.md
-    - Componentes eléctricos: 4_1_componentes_elec.md
-  - Símbología eléctrica::
-    - Símbolos y esquemas eléctricos: 5_simbolos.md
-    - Ejercicios sobre esquemas eléctricos: 5_1_esquemas_ejercicios.md
-  - Magnitudes fundamentales eléctricas: 6_magnitudes.md
-  - La Ley de Ohm: 7_ley_ohm.md
+  - 0. INICIO: index.md
+  - 1. INTRODUCCIÓN A LA ELECTRICIDAD: 1_introduccion.md
+  - 2. ESTRUCTURA DEL ÁTOMO: 2_atomo.md
+  - ❓ Cuestionario: cuestionarios/2_atomo_cuestionario.md
+  - 3. LAS PARTÍCULAS SUBATÓMICAS: 2_0_comportamientos.md
+  - ❓ Cuestionario: cuestionarios/2_0_comportamientos_cuestionario.md
+  - 🔬 Experimenta: 2_1_experimenta.md
+  - 4. LA CORRIENTE ELÉCTRICA: 3_corriente.md
+  - ❓ Cuestionario: cuestionarios/3_corriente_cuestionario.md
+  - 5. EL CIRCUITO ELÉCTRICO: 4_circuito_elec.md
+  - ❓ Cuestionario: cuestionarios/4_circuito_cuestionario.md
+  - 6. COMPONENTES ELÉCTRICOS: 4_1_componentes_elec.md
+  - ❓ Cuestionario: cuestionarios/4_1_componentes_cuestionario.md
+  - 7. SÍMBOLOS Y ESQUEMAS ELÉCTRICOS: 5_simbolos.md
+  - 🪛 Ejercicios sobre esquemas eléctricos: 5_1_esquemas_ejercicios.md
+  - 8. MAGNITUDES FUNDAMENTALES ELÉCTRICAS. V, I, R: 6_magnitudes.md
+  - ❓ Cuestionario: cuestionarios/6_magnitudes_cuestionario.md 
+  - 9. LA LEY DE OHM: 7_ley_ohm.md
+  - ❓ Cuestionario: cuestionarios/7_ohm_cuestionario.md
+  - 📒 Ejercicios: 
+    - Ficha 1: ejercicios/1_atomo.md
+    - Ficha 2: ejercicios/2_corriente.md
+    - Ficha 3: ejercicios/3_circuito.md
+    - Ficha 4: ejercicios/4_simbolos.md
+    - Ficha 5: ejercicios/5_magnitudes.md
+    - Ficha 6: ejercicios/6_ohm.md
   - VERSIÓN PDF: pdf/document.pdf
+  - Actividad introductoria: 0_actividad_introductoria.md
 
+  # - Blog:
+  #   - blog/index.md
 
 site_url: https://citius70.github.io/electricidad-tecnologia-1eso/
 repo_url: https://github.com/citius70/electricidad-tecnologia-1eso.git
 repo_name: citius70/electricidad-tecnologia-1eso
 
-
-
 theme:
+  navigation_depth: 2
+  font:
+    text: "Open sans"
+    code: Roboto Mono
   features:
     - header.autohide
+    - navigation.indexes
+
   icon:
     repo: fontawesome/brands/git
   name: material
@@ -62,9 +82,21 @@ theme:
 
   features:
     - navigation.top
+    - navigation.tracking
+    - navigation.sections
+    - navigation.headings
+    - navigation.numbered.headings
+    # - navigation.tabs
+    - navigation.path
     - navigation.expand
     - navigation.instant
+    - navigation.footer
     - navigation.instant.prefetch
+    - navigation.sections
+    #- toc.follow
+    - toc.integrate
+    - search.highlight
+    - search.suggest
 
 
 
@@ -87,6 +119,11 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 
 extra_javascript:
   - javascripts/katex.js
@@ -95,6 +132,7 @@ extra_javascript:
 
 extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
+  - stylesheets/extra_css.css
 
 extra:
   version:
@@ -102,40 +140,70 @@ extra:
 
 
 plugins:
-    - with-pdf:
-        author: ALBERTO DURÁN PÉREZ
-        copyright: ANY TEXT
-        #
-        cover: true
-        back_cover: true
-        #cover_title: yyyyy
-        cover_subtitle: Tecnología y Digitalización - 1º ESO
-        #custom_template_path: TEMPLATES PATH
-        #
-        toc_title:  Tabla de contenidos
-        #heading_shift: false
-        #toc_level: 3
-        #ordered_chapter_level: 2
-        #excludes_children:
-        #    - 'release-notes/:upgrading'
-        #    - 'release-notes/:changelog'
-        #
-        #exclude_pages:
-        #    - 'bugs/'
-        #    - 'appendix/contribute/'
-        #convert_iframe:
-        #    - src: IFRAME SRC
-        #      img: POSTER IMAGE URL
-        #      text: ALTERNATE TEXT
-        #    - src: ...
-        two_columns_level: 0
-        #
-        #render_js: true
-        #headless_chrome_path: headless-chromium
-        #
-        #output_path: any-place/document.pdf
-        #enabled_if_env: ENABLE_PDF_EXPORT
-        #
-        #debug_html: true
-        #show_anchors: true
-        #verbose: true
+  - enumerate-headings:
+      toc_depth: 0
+      strict: true
+      increment_across_pages: true
+      include:
+        - "*"
+      exclude:
+        - index.md
+        - 5_1_esquemas_ejercicios.md
+        - 2_1_experimenta.md
+        - cuestionarios/*
+        - ejercicios/*
+        - blog/*
+        - 0_actividad_introductoria.md
+      # restart_increment_after:
+      #   - second_section.md
+  - with-pdf:
+      author: ALBERTO DURÁN PÉREZ
+      copyright: © 2026 Alberto Durán Pérez
+      #
+      cover: true
+      # back_cover: true
+      # cover_title: yyyyy
+      cover_subtitle: Tecnología y Digitalización - 1º ESO
+      #custom_template_path: TEMPLATES PATH
+      #
+      toc_title:  Tabla de contenidos
+      heading_shift: true
+      #toc_level: 3
+      #ordered_chapter_level: 2
+      #excludes_children:
+      #    - 'release-notes/:upgrading'
+      #    - 'release-notes/:changelog'
+      #
+      #exclude_pages:
+      #    - 'bugs/'
+      #    - 'appendix/contribute/'
+      #convert_iframe:
+      #    - src: IFRAME SRC
+      #      img: POSTER IMAGE URL
+      #      text: ALTERNATE TEXT
+      #    - src: ...
+      two_columns_level: 0
+      #
+      #render_js: true
+      #headless_chrome_path: headless-chromium
+      #
+      #output_path: any-place/document.pdf
+      #enabled_if_env: ENABLE_PDF_EXPORT #Activar o desactivar para generar pdf
+      #
+      #debug_html: true
+      #show_anchors: true
+      #verbose: true
+  - blog:
+      blog_dir: blog/
+      blog_index_template: blog/index.md
+      date_format: DD-MM-YYYY
+  - search:
+      lang: es
+      separator: '[\s\-]+'
+  - glightbox:
+      include: 
+        - "*.md"
+  - social:
+      background_color: indigo
+      image: image/atomo.png
+  

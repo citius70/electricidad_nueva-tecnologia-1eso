@@ -20,7 +20,7 @@ Es como si los electrones fueran coches en una carretera, moviéndose todos en l
 
 
 
-## Generadores eléctricos
+## ¿Quién "empuja" a los electrones?
 
 ![Corriente](media/corriente_elec.png){ align=right width=300px }
 

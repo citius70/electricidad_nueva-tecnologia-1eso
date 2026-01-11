@@ -5,16 +5,20 @@
 
 Como vimos en el apartado anterior el circuito eléctrico está formado por un conjunto de **componentes eléctricos** conectados entre sí formando un camino cerrado. Estos componentes los podemos clasificar en:
 
-1. Generadores eléctricos
-2. Receptores eléctricos
-3. Conductores eléctricos
-4. Elementos de control o maniobra
-5. Elementos de protección
+```mermaid
+graph TD
+A[Componentes eléctricos] --> B(1. Generadores eléctricos)
+A --> C(2. Receptores eléctricos)
+A --> D(3. Conductores eléctricos)
+A --> E(4. Elementos de control o maniobra)
+A --> F(5. Elementos de protección)
+```
 
 ## Generadores eléctricos
 
 !!! info "Definición de **generador eléctrico**"
-    Los **generadores** son los componentes eléctricos que producen o generan la corriente eléctrica.
+    Los **generadores** son los componentes eléctricos que producen o generan la corriente eléctrica.  
+    Mueven los electrones a través del circuito.
 
 ![Generador](media/generador1.gif){ align=right width=250px }
 
@@ -25,8 +29,6 @@ Su **símbolo eléctrico** es:
 ![Generador](media/simbolo_battery.png){ align=center width=16% style="display: block; margin: 0 auto;" }
 
 Ejemplos de generadores son: las pilas de los dispositivos eléctricos, las baterías de los coches, los alternadores de las centrales eléctricas o las dinamos de las bicicletas.
-
-
 
 ## Conductores eléctricos
 
@@ -45,6 +47,12 @@ En los hilos y cables se utiliza el **cobre** por sus propiedades: es *dúctil* 
 !!! info "Definición de **receptor eléctrico**"
     Los **receptores** son los componentes eléctricos a los que les llega la energía eléctrica y la transforma en otro tipo de energía útil (luminosa, cinética, sonora...). 
 
+``` mermaid
+graph LR
+  A[Energía **eléctrica**] --> B{RECEPTOR};
+  B --> E[Energía **más útlil**];
+```
+
 Son los dispositivos que transforman la energía asociada a la corriente eléctrica en otras formas de energía. Son ejemplos: las bombillas, los motores, las resistencias, etc.
 
 - Una **bombilla** recibe **energía eléctrica** y la transforma en **energía luminosa** .
@@ -61,8 +69,9 @@ Los receptores más importantes son: la lámpara y el motor eléctrico, aunque h
 
 ``` mermaid
 graph LR
-  A[Energía eléctrica] --> B{Bombilla};
-  B --> E[Energía luminosa];
+  A[Energía **eléctrica**] --> B{Bombilla};
+  B ==> E[Energía **luminosa**];
+  B -.-> F[Energía térmica];
 ```
 
 ![Bombilla](media/bombilla.jpg){ align=right width=200px }
@@ -83,8 +92,8 @@ Su **símbolo eléctrico** es:
 
 ``` mermaid
 graph LR
-  A[Energía eléctrica] --> B{Motor eléctrico};
-  B --> E[Energía cinética];
+  A[Energía **eléctrica**] --> B{Motor eléctrico};
+  B --> E[Energía **cinética**];
 ```
 
 ![Motor](media/motor.jpg){ align=right width=200px }
@@ -105,8 +114,8 @@ Su **símbolo eléctrico** es:
 
 ``` mermaid
 graph LR
-  A[Energía eléctrica] --> B{Zumbador};
-  B --> E[Energía sonora];
+  A[Energía **eléctrica**] --> B{Zumbador};
+  B --> E[Energía **sonora**];
 ```
 
 Emite un sonido característico (zumbido) cuando se le aplica una corriente eléctrica. Es ampliamente utilizado en circuitos y dispositivos electrónicos para generar señales audibles que sirven como alarmas, indicadores o avisos.

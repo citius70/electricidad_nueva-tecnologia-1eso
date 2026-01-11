@@ -1,806 +1,567 @@
-
-<!doctype html>
-<html lang="es" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-      
-      
-        <link rel="canonical" href="https://citius70.github.io/electricidad-tecnologia-1eso/6_magnitudes/">
-      
-      
-        <link rel="prev" href="../5_1_esquemas_ejercicios/">
-      
-      
-        <link rel="next" href="../7_ley_ohm/">
-      
-      
-        
-      
-      
-      <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
-    
-    
-      
-        <title>Magnitudes fundamentales eléctricas - Electricidad básica</title>
-      
-    
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
-      
-        
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
-      
-      
-
-
-    
-    
-      
-    
-    
-      
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
-    
-    
-      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
-    
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-    
-      
-
-    
-    
-  </head>
-  
-  
-    
-    
-      
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
-  
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#magnitudes-fundamentales-electricas" class="md-skip">
+<!DOCTYPE html><html class="no-js" lang="es"><head>
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<meta content="Curso de electricidad básica para estudiantes de 1º de ESO." name="description">
+<link href="https://citius70.github.io/electricidad-tecnologia-1eso/6_magnitudes/" rel="canonical">
+<link href="../5_1_esquemas_ejercicios/" rel="prev">
+<link href="../cuestionarios/6_magnitudes_cuestionario/" rel="next">
+<link href="../assets/images/favicon.png" rel="icon">
+<meta content="mkdocs-1.6.1, mkdocs-material-9.7.0" name="generator">
+<title>8. MAGNITUDES FUNDAMENTALES ELÉCTRICAS. V, I, R - ELECTRICIDAD BÁSICA - 1º ESO</title>
+<link href="../assets/stylesheets/main.618322db.min.css" rel="stylesheet">
+<link href="../assets/stylesheets/palette.ab4e12ef.min.css" rel="stylesheet">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css?family=Open+sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet">
+<style>:root{--md-text-font:"Open sans";--md-code-font:"Roboto Mono"}</style>
+<link href="https://unpkg.com/katex@0/dist/katex.min.css" rel="stylesheet">
+<link href="../stylesheets/extra_css.css" rel="stylesheet">
+<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox">
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox">
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#magnitudes-fundamentales-electricas">
           Saltar a contenido
         </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
-        
-      </div>
-    
-    
-      
-
-  
-
+</div>
+<div data-md-component="announce">
+</div>
+<div data-md-color-scheme="default" data-md-component="outdated" hidden="">
+</div>
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Cabecera">
-    <a href=".." title="Electricidad básica" class="md-header__button md-logo" aria-label="Electricidad básica" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
-
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            Electricidad básica
+<nav aria-label="Cabecera" class="md-header__inner md-grid">
+<a aria-label="ELECTRICIDAD BÁSICA - 1º ESO" class="md-header__button md-logo" data-md-component="logo" href=".." title="ELECTRICIDAD BÁSICA - 1º ESO">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            ELECTRICIDAD BÁSICA - 1º ESO
           </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
             
-              Magnitudes fundamentales eléctricas
+              8. MAGNITUDES FUNDAMENTALES ELÉCTRICAS. V, I, R
             
           </span>
-        </div>
-      </div>
-    </div>
-    
-      
-        <form class="md-header__option" data-md-component="palette">
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_0">
-    
-      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
-      </label>
-    
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_1">
-    
-      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_2" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
-      </label>
-    
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Cambiar a preferencias de sistema"  type="radio" name="__palette" id="__palette_2">
-    
-      <label class="md-header__button md-icon" title="Cambiar a preferencias de sistema" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
-      </label>
-    
-  
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Cambiar a modo claro" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme)" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio">
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Cambiar a modo claro">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"></path></svg>
+</label>
+<input aria-label="Cambiar a modo oscuro" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio">
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Cambiar a modo oscuro">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="Cambiar a preferencias de sistema" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio">
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Cambiar a preferencias de sistema">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
 </form>
-      
-    
-    
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
-    
-    
-    
-    
-      <div class="md-header__source">
-        <a href="https://github.com/citius70/electricidad-tecnologia-1eso.git" title="Ir al repositorio" class="md-source" data-md-component="source">
-  <div class="md-source__icon md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M216.3 158.4H137C97 147.9 6.5 150.6 6.5 233.2c0 30.1 15 51.2 35 61-25.1 23-37 33.8-37 49.2 0 11 4.5 21.1 17.9 26.8C8.1 383.6 0 393.3 0 411.6c0 32.1 28 50.8 101.6 50.8 70.8 0 111.8-26.4 111.8-73.2 0-58.7-45.2-56.5-151.6-63l13.4-21.6c27.3 7.6 118.7 10 118.7-67.9 0-18.7-7.7-31.7-15-41.1l37.4-2.8v-34.5zm-63.4 241.9c0 32.1-104.9 32.1-104.9 2.4 0-8.1 5.3-15 10.6-21.5 77.7 5.3 94.3 3.4 94.3 19.1m-50.8-134.6c-52.8 0-50.5-71.2 1.2-71.2 49.5 0 50.8 71.2-1.2 71.2m133.3 100.5v-32.1c26.7-3.7 27.2-2 27.2-11V203.6c0-8.5-2.1-7.4-27.2-16.3l4.5-32.9h84.2v168.7c0 6.5.4 7.3 6.5 8.1l20.7 2.8v32.1H235.4zm52.5-244.3c-23.2 0-36.6-13.4-36.6-36.6s13.4-35.8 36.6-35.8c23.6 0 37 12.6 37 35.8s-13.4 36.6-37 36.6M512 350.5c-17.5 8.5-43.1 16.3-66.3 16.3-48.4 0-66.7-19.5-66.7-65.5V194.8c0-5.4 1-4.1-31.7-4.1v-36.2c35.8-4.1 50-22 54.5-66.3h38.6c0 65.8-1.3 61.8 3.3 61.8H501v40.6h-60.6v97.1c0 6.9-4.9 51.4 60.6 26.8l11 35.8z"/></svg>
-  </div>
-  <div class="md-source__repository">
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Búsqueda" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Búsqueda" required="" spellcheck="false" type="text">
+<label class="md-search__icon md-icon" for="__search">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Buscar" class="md-search__options">
+<button aria-label="Limpiar" class="md-search__icon md-icon" tabindex="-1" title="Limpiar" type="reset">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/citius70/electricidad-tecnologia-1eso.git" title="Ir al repositorio">
+<div class="md-source__icon md-icon">
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M216.3 158.4H137C97 147.9 6.5 150.6 6.5 233.2c0 30.1 15 51.2 35 61-25.1 23-37 33.8-37 49.2 0 11 4.5 21.1 17.9 26.8C8.1 383.6 0 393.3 0 411.6c0 32.1 28 50.8 101.6 50.8 70.8 0 111.8-26.4 111.8-73.2 0-58.7-45.2-56.5-151.6-63l13.4-21.6c27.3 7.6 118.7 10 118.7-67.9 0-18.7-7.7-31.7-15-41.1l37.4-2.8v-34.5zm-63.4 241.9c0 32.1-104.9 32.1-104.9 2.4 0-8.1 5.3-15 10.6-21.5 77.7 5.3 94.3 3.4 94.3 19.1m-50.8-134.6c-52.8 0-50.5-71.2 1.2-71.2 49.5 0 50.8 71.2-1.2 71.2m133.3 100.5v-32.1c26.7-3.7 27.2-2 27.2-11V203.6c0-8.5-2.1-7.4-27.2-16.3l4.5-32.9h84.2v168.7c0 6.5.4 7.3 6.5 8.1l20.7 2.8v32.1H235.4zm52.5-244.3c-23.2 0-36.6-13.4-36.6-36.6s13.4-35.8 36.6-35.8c23.6 0 37 12.6 37 35.8s-13.4 36.6-37 36.6M512 350.5c-17.5 8.5-43.1 16.3-66.3 16.3-48.4 0-66.7-19.5-66.7-65.5V194.8c0-5.4 1-4.1-31.7-4.1v-36.2c35.8-4.1 50-22 54.5-66.3h38.6c0 65.8-1.3 61.8 3.3 61.8H501v40.6h-60.6v97.1c0 6.9-4.9 51.4 60.6 26.8l11 35.8z"></path></svg>
+</div>
+<div class="md-source__repository">
     citius70/electricidad-tecnologia-1eso
   </div>
 </a>
-      </div>
-    
-  </nav>
-  
+</div>
+</nav>
 </header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-          
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-
-
-<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Electricidad básica" class="md-nav__button md-logo" aria-label="Electricidad básica" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
-
-    </a>
-    Electricidad básica
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navegación" class="md-nav md-nav--primary md-nav--integrated" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="ELECTRICIDAD BÁSICA - 1º ESO" class="md-nav__button md-logo" data-md-component="logo" href=".." title="ELECTRICIDAD BÁSICA - 1º ESO">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    ELECTRICIDAD BÁSICA - 1º ESO
   </label>
-  
-    <div class="md-nav__source">
-      <a href="https://github.com/citius70/electricidad-tecnologia-1eso.git" title="Ir al repositorio" class="md-source" data-md-component="source">
-  <div class="md-source__icon md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M216.3 158.4H137C97 147.9 6.5 150.6 6.5 233.2c0 30.1 15 51.2 35 61-25.1 23-37 33.8-37 49.2 0 11 4.5 21.1 17.9 26.8C8.1 383.6 0 393.3 0 411.6c0 32.1 28 50.8 101.6 50.8 70.8 0 111.8-26.4 111.8-73.2 0-58.7-45.2-56.5-151.6-63l13.4-21.6c27.3 7.6 118.7 10 118.7-67.9 0-18.7-7.7-31.7-15-41.1l37.4-2.8v-34.5zm-63.4 241.9c0 32.1-104.9 32.1-104.9 2.4 0-8.1 5.3-15 10.6-21.5 77.7 5.3 94.3 3.4 94.3 19.1m-50.8-134.6c-52.8 0-50.5-71.2 1.2-71.2 49.5 0 50.8 71.2-1.2 71.2m133.3 100.5v-32.1c26.7-3.7 27.2-2 27.2-11V203.6c0-8.5-2.1-7.4-27.2-16.3l4.5-32.9h84.2v168.7c0 6.5.4 7.3 6.5 8.1l20.7 2.8v32.1H235.4zm52.5-244.3c-23.2 0-36.6-13.4-36.6-36.6s13.4-35.8 36.6-35.8c23.6 0 37 12.6 37 35.8s-13.4 36.6-37 36.6M512 350.5c-17.5 8.5-43.1 16.3-66.3 16.3-48.4 0-66.7-19.5-66.7-65.5V194.8c0-5.4 1-4.1-31.7-4.1v-36.2c35.8-4.1 50-22 54.5-66.3h38.6c0 65.8-1.3 61.8 3.3 61.8H501v40.6h-60.6v97.1c0 6.9-4.9 51.4 60.6 26.8l11 35.8z"/></svg>
-  </div>
-  <div class="md-source__repository">
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/citius70/electricidad-tecnologia-1eso.git" title="Ir al repositorio">
+<div class="md-source__icon md-icon">
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M216.3 158.4H137C97 147.9 6.5 150.6 6.5 233.2c0 30.1 15 51.2 35 61-25.1 23-37 33.8-37 49.2 0 11 4.5 21.1 17.9 26.8C8.1 383.6 0 393.3 0 411.6c0 32.1 28 50.8 101.6 50.8 70.8 0 111.8-26.4 111.8-73.2 0-58.7-45.2-56.5-151.6-63l13.4-21.6c27.3 7.6 118.7 10 118.7-67.9 0-18.7-7.7-31.7-15-41.1l37.4-2.8v-34.5zm-63.4 241.9c0 32.1-104.9 32.1-104.9 2.4 0-8.1 5.3-15 10.6-21.5 77.7 5.3 94.3 3.4 94.3 19.1m-50.8-134.6c-52.8 0-50.5-71.2 1.2-71.2 49.5 0 50.8 71.2-1.2 71.2m133.3 100.5v-32.1c26.7-3.7 27.2-2 27.2-11V203.6c0-8.5-2.1-7.4-27.2-16.3l4.5-32.9h84.2v168.7c0 6.5.4 7.3 6.5 8.1l20.7 2.8v32.1H235.4zm52.5-244.3c-23.2 0-36.6-13.4-36.6-36.6s13.4-35.8 36.6-35.8c23.6 0 37 12.6 37 35.8s-13.4 36.6-37 36.6M512 350.5c-17.5 8.5-43.1 16.3-66.3 16.3-48.4 0-66.7-19.5-66.7-65.5V194.8c0-5.4 1-4.1-31.7-4.1v-36.2c35.8-4.1 50-22 54.5-66.3h38.6c0 65.8-1.3 61.8 3.3 61.8H501v40.6h-60.6v97.1c0 6.9-4.9 51.4 60.6 26.8l11 35.8z"></path></svg>
+</div>
+<div class="md-source__repository">
     citius70/electricidad-tecnologia-1eso
   </div>
 </a>
-    </div>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="..">
+<span class="md-ellipsis">
     
   
-    Inicio
+    0. INICIO
   
 
     
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../1_introduccion/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../1_introduccion/">
+<span class="md-ellipsis">
     
   
-    Introducción a la electricidad
+    1. INTRODUCCIÓN A LA ELECTRICIDAD
   
 
     
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2_atomo/">
+<span class="md-ellipsis">
     
   
-    El átomo:
+    2. ESTRUCTURA DEL ÁTOMO
   
 
     
   </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    El átomo:
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../2_atomo/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../cuestionarios/2_atomo_cuestionario/">
+<span class="md-ellipsis">
     
   
-    Estructura del átomo
+    ❓ Cuestionario
   
 
     
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../2_1_experimenta/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2_0_comportamientos/">
+<span class="md-ellipsis">
     
   
-    Experimenta
+    3. LAS PARTÍCULAS SUBATÓMICAS
   
 
     
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../3_corriente/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../cuestionarios/2_0_comportamientos_cuestionario/">
+<span class="md-ellipsis">
     
   
-    La corriente eléctrica
+    ❓ Cuestionario
   
 
     
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2_1_experimenta/">
+<span class="md-ellipsis">
     
   
-    El circuito eléctrico:
+    🔬 Experimenta
   
 
     
   </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    El circuito eléctrico:
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../4_circuito_elec/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../3_corriente/">
+<span class="md-ellipsis">
     
   
-    Definición y características
+    4. LA CORRIENTE ELÉCTRICA
   
 
     
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../4_1_componentes_elec/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../cuestionarios/3_corriente_cuestionario/">
+<span class="md-ellipsis">
     
   
-    Componentes eléctricos
+    ❓ Cuestionario
   
 
     
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../4_circuito_elec/">
+<span class="md-ellipsis">
     
   
-    Símbología eléctrica:
+    5. EL CIRCUITO ELÉCTRICO
   
 
     
   </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Símbología eléctrica:
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../5_simbolos/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../cuestionarios/4_circuito_cuestionario/">
+<span class="md-ellipsis">
     
   
-    Símbolos y esquemas eléctricos
+    ❓ Cuestionario
   
 
     
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../5_1_esquemas_ejercicios/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../4_1_componentes_elec/">
+<span class="md-ellipsis">
     
   
-    Ejercicios sobre esquemas eléctricos
+    6. COMPONENTES ELÉCTRICOS
   
 
     
   </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../cuestionarios/4_1_componentes_cuestionario/">
+<span class="md-ellipsis">
     
   
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Magnitudes fundamentales eléctricas
+    ❓ Cuestionario
   
 
     
   </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../5_simbolos/">
+<span class="md-ellipsis">
     
   
-    Magnitudes fundamentales eléctricas
+    7. SÍMBOLOS Y ESQUEMAS ELÉCTRICOS
   
 
     
   </span>
-  
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
-  
-  
-  
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../5_1_esquemas_ejercicios/">
+<span class="md-ellipsis">
     
   
+    🪛 Ejercicios sobre esquemas eléctricos
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox">
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    
+  
+    8. MAGNITUDES FUNDAMENTALES ELÉCTRICAS. V, I, R
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    
+  
+    8. MAGNITUDES FUNDAMENTALES ELÉCTRICAS. V, I, R
+  
+
+    
+  </span>
+</a>
+<nav aria-label="Tabla de contenidos" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
       Tabla de contenidos
     </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#voltaje-o-tension-electrica-v" class="md-nav__link">
-    <span class="md-ellipsis">
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#voltaje-o-tension-electrica-v">
+<span class="md-ellipsis">
       
         Voltaje o Tensión eléctrica \((V)\)
       
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#resistencia-electrica-r" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resistencia-electrica-r">
+<span class="md-ellipsis">
       
         Resistencia eléctrica \((R)\)
       
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#intensidad-de-corriente-i" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#intensidad-de-corriente-i">
+<span class="md-ellipsis">
       
         Intensidad de Corriente \((I)\)
       
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#como-afectan-la-v-y-r-a-i" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#como-afectan-la-v-y-r-a-i">
+<span class="md-ellipsis">
       
         ¿Cómo afectan la \(V\) y \(R\) a \(I\)?
       
     </span>
-  </a>
-  
+</a>
+<nav aria-label="¿Cómo afectan la \(V\) y \(R\) a \(I\)?" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relacion-voltaje-v-intensidad-i">
+<span class="md-ellipsis">
+      
+        📈 Relación Voltaje (\(V\)) – Intensidad (\(I\))
+      
+    </span>
+</a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#relacion-resistencia-r-intensidad-i">
+<span class="md-ellipsis">
       
-    </ul>
-  
+        📉 Relación Resistencia (\(R\)) – Intensidad (\(I\))
+      
+    </span>
+</a>
+</li>
+</ul>
 </nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resumen-visual">
+<span class="md-ellipsis">
       
-    </li>
-  
-
+        🧩 Resumen visual
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../cuestionarios/6_magnitudes_cuestionario/">
+<span class="md-ellipsis">
     
-      
-      
   
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../7_ley_ohm/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    La Ley de Ohm
+    ❓ Cuestionario
   
 
     
   </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../7_ley_ohm/">
+<span class="md-ellipsis">
+    
   
-  
-
-      </a>
-    </li>
+    9. LA LEY DE OHM
   
 
     
-      
-      
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../cuestionarios/7_ohm_cuestionario/">
+<span class="md-ellipsis">
+    
   
+    ❓ Cuestionario
   
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_20" type="checkbox">
+<label class="md-nav__link" for="__nav_20" id="__nav_20_label" tabindex="">
+<span class="md-ellipsis">
+    
   
+    📒 Ejercicios
   
-    <li class="md-nav__item">
-      <a href="../pdf/document.pdf" class="md-nav__link">
-        
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_20_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_20">
+<span class="md-nav__icon md-icon"></span>
+            
   
+    📒 Ejercicios
   
-  <span class="md-ellipsis">
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ejercicios/1_atomo/">
+<span class="md-ellipsis">
+    
+  
+    Ficha 1
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ejercicios/2_corriente/">
+<span class="md-ellipsis">
+    
+  
+    Ficha 2
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ejercicios/3_circuito/">
+<span class="md-ellipsis">
+    
+  
+    Ficha 3
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ejercicios/4_simbolos/">
+<span class="md-ellipsis">
+    
+  
+    Ficha 4
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ejercicios/5_magnitudes/">
+<span class="md-ellipsis">
+    
+  
+    Ficha 5
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ejercicios/6_ohm/">
+<span class="md-ellipsis">
+    
+  
+    Ficha 6
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../pdf/document.pdf">
+<span class="md-ellipsis">
     
   
     VERSIÓN PDF
@@ -808,145 +569,80 @@
 
     
   </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../0_actividad_introductoria/">
+<span class="md-ellipsis">
+    
   
-  
-
-      </a>
-    </li>
+    Actividad introductoria
   
 
     
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#voltaje-o-tension-electrica-v" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Voltaje o Tensión eléctrica \((V)\)
-      
-    </span>
-  </a>
-  
+  </span>
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#resistencia-electrica-r" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Resistencia eléctrica \((R)\)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#intensidad-de-corriente-i" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Intensidad de Corriente \((I)\)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#como-afectan-la-v-y-r-a-i" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ¿Cómo afectan la \(V\) y \(R\) a \(I\)?
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          
-            <div class="md-content" data-md-component="content">
-              
-              <article class="md-content__inner md-typeset">
-                
-                  
-
-
-  
-  
-
-
-<h1 id="magnitudes-fundamentales-electricas">Magnitudes fundamentales eléctricas<a class="headerlink" href="#magnitudes-fundamentales-electricas" title="Permanent link">&para;</a></h1>
-<p><img align="right" alt="Magnitudes" src="../media/magnitudes.png" width="50%" /></p>
-<p>Cuando analizamos un circuito eléctrico es necesario conocer tres características importantes del mismo. Estas características se llaman <strong>magnitudes  fundamentales eléctricas</strong> y son:</p>
-<ul>
-<li>Voltaje o Tensión eléctrica <span class="arithmatex">\((V)\)</span></li>
-<li>Resistencia eléctrica <span class="arithmatex">\((R)\)</span></li>
-<li>Intensidad de corriente <span class="arithmatex">\((I)\)</span></li>
 </ul>
-<p>En la figura se ven reflejados estos tres conceptos. Es un circuito elemental al cual se le conectó un receptor (lámpara). La corriente llega gracias a un conductor eléctrico (cable).</p>
-<h2 id="voltaje-o-tension-electrica-v">Voltaje o Tensión eléctrica <span class="arithmatex">\((V)\)</span><a class="headerlink" href="#voltaje-o-tension-electrica-v" title="Permanent link">&para;</a></h2>
-<div class="admonition abstract">
-<p class="admonition-title">Voltaje</p>
-<p><img align="right" alt="Voltaje" src="../media/leyohm.jpg" width="25%" />
-El <strong>voltaje <span class="arithmatex">\((V)\)</span>,</strong> también llamado <strong>tensión</strong>, es como una <em>fuerza</em> que empuja a los electrones para que se muevan a través de un circuito.</p>
+</nav>
 </div>
-<p>Sin esta fuerza, los electrones no pueden desplazarse en la misma dirección y, por lo tanto, no hay corriente eléctrica. Por otro lado, hay que decir que <strong>si aumentamos el voltaje de un circuito</strong>, entonces, <strong>el número de electrones en movimiento también aumentará</strong>. </p>
-<p>Estableciendo un símil, si dejamos caer coches de juguete por una rampa, cuanta más altura tenga más fácil les será deslizarse y, por lo tanto, más coches podrán bajar por ella; de la misma manera cuanta más tensión tenga un circuito, más cargas eléctricas (electrones) circularán.</p>
-<p><img align="right" alt="Votímetro" src="../media/voltimetro.jpg" width="20%" /></p>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="magnitudes-fundamentales-electricas"><span class="enumerate-headings-plugin enumerate-heading-plugin">8.</span> Magnitudes fundamentales eléctricas<a class="headerlink" href="#magnitudes-fundamentales-electricas" title="Permanent link">¶</a></h1>
+<p>Cuando analizamos un circuito eléctrico es necesario conocer tres <strong>valores</strong> importantes del mismo. Estas características se llaman <strong>magnitudes  fundamentales eléctricas</strong> y son:</p>
+<pre class="mermaid"><code>graph TD
+A[Magnitudes eléctricas] --&gt; B(Voltaje o Tensión eléctrica)
+A --&gt; C(Resistencia eléctrica)
+A --&gt; D(Intensidad de corriente)</code></pre>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../media/magnitudes.png"><img align="right" alt="Magnitudes" src="../media/magnitudes.png" width="50%"></a></p>
+<p>En la figura se ven reflejados estos tres conceptos. Es un circuito elemental al cual se le conectó un receptor (lámpara) que tiene <strong>Resistencia eléctrica</strong>. Debido al <strong>Voltaje eléctrico</strong> producido por la pila, la corriente (<strong>Intensidad de corriente</strong>) llega gracias a un conductor eléctrico (cable).</p>
+<h2 id="voltaje-o-tension-electrica-v"><span class="enumerate-headings-plugin enumerate-heading-plugin">8.1</span> Voltaje o Tensión eléctrica <span class="arithmatex">\((V)\)</span><a class="headerlink" href="#voltaje-o-tension-electrica-v" title="Permanent link">¶</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Definición de Voltaje</p>
+<p>El <strong>voltaje <span class="arithmatex">\((V)\)</span>,</strong> también llamado <strong>tensión</strong>, es como una <em>fuerza</em> que empuja a los electrones para que se muevan a través de un circuito.</p>
+</div>
+<p>Sin esta fuerza, los electrones no pueden desplazarse en la misma dirección y, por lo tanto, no hay corriente eléctrica. </p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../media/leyohm.jpg"><img align="right" alt="Voltaje" src="../media/leyohm.jpg" width="30%"></a></p>
+<ul>
+<li><strong>Si aumentamos el voltaje de un circuito</strong>, los electrones se moverán con más facilidad y <strong>circulará más corriente</strong>.</li>
+<li><strong>Si disminuimos el voltaje</strong>, a los electrones les costará más moverse y <strong>circulará menos corriente</strong>.</li>
+</ul>
+<p>Para entenderlo mejor, podemos usar un ejemplo:</p>
+<blockquote>
+<p>Imagina coches de juguete bajando por una rampa:<br>
+Cuanto más alta es la rampa, más fácil es que los coches bajen.<br>
+De la misma manera, cuanto mayor es el voltaje, más fácil es que los electrones se muevan por el circuito.</p>
+</blockquote>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../media/voltimetro.jpg"><img align="right" alt="Votímetro" src="../media/voltimetro.jpg" width="20%"></a></p>
 <p>Para medir el voltaje en una parte del circuito se utiliza un aparato llamado <strong>voltímetro</strong>, que se ha de conectar en paralelo con el circuito.</p>
 <p>La unidad de medida del Voltaje (<span class="arithmatex">\(V\)</span>) es el <strong>voltio</strong> (<span class="arithmatex">\(v\)</span>). Por ejemplo:</p>
 <div class="arithmatex">\[V = 4\; v\]</div>
-<h2 id="resistencia-electrica-r">Resistencia eléctrica <span class="arithmatex">\((R)\)</span><a class="headerlink" href="#resistencia-electrica-r" title="Permanent link">&para;</a></h2>
+<h2 id="resistencia-electrica-r"><span class="enumerate-headings-plugin enumerate-heading-plugin">8.2</span> Resistencia eléctrica <span class="arithmatex">\((R)\)</span><a class="headerlink" href="#resistencia-electrica-r" title="Permanent link">¶</a></h2>
 <div class="admonition abstract">
 <p class="admonition-title">Resistencia eléctrica</p>
-<p><img align="right" alt="Resistencia" src="../media/resistencia3.gif" width="30%" />
-La <strong>Resistencia eléctrica <span class="arithmatex">\((R)\)</span></strong> es la <em>oposición</em> o <em>dificultad</em> que ofrecen los diferentes materiales al paso de la corriente eléctrica.</p>
+<p>La <strong>Resistencia eléctrica <span class="arithmatex">\((R)\)</span></strong> es la <em>oposición</em> o <em>dificultad</em> que ofrecen los diferentes materiales al paso de la corriente eléctrica.</p>
 </div>
-<p><img align="right" alt="Resistencia" src="../media/resistencia1.png" width="30%" /></p>
-<p>Expliquemos la Resistencia eléctrica con un símil. Los coches en la carretera "representan" a los electrones que circulan por circuito. En la parte superior de la imagen, la carretera se <strong>estrecha</strong>, lo que dificulta el avance de los coches y genera "atascos". Esto es similar a lo que sucede en un material con <strong>alta resistencia eléctrica</strong>, donde el flujo de electrones se encuentra con obstáculos, dificultando su movimiento y perdiendo parte de la energía en forma de calor.</p>
-<p>En la parte inferior, la carretera es más <strong>ancha</strong> y los coches circulan sin problemas. Esto se parece a un material con <strong>baja resistencia eléctrica</strong>, donde los electrones fluyen fácilmente, como ocurre en buenos conductores como el cobre. Cuanto más amplio y adecuado sea el camino, más eficiente será el transporte de los electrones.</p>
+<p>Para entenderlo mejor, podemos usar un ejemplo:</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../media/resistencia1.png"><img align="right" alt="Resistencia" src="../media/resistencia1.png" width="40%"></a></p>
+<blockquote>
+<p>Los coches en la carretera "representan" a los electrones que circulan por circuito:
+En la parte superior de la imagen, la carretera se <strong>estrecha</strong>, lo que dificulta el avance de los coches y genera "atascos". Esto es similar a lo que sucede en un material con <strong>alta resistencia eléctrica</strong>, donde el flujo de electrones se encuentra con obstáculos, dificultando su movimiento y perdiendo parte de la energía en forma de calor.<br>
+En la parte inferior, la carretera es más <strong>ancha</strong> y los coches circulan sin problemas. Esto se parece a un material con <strong>baja resistencia eléctrica</strong>, donde los electrones fluyen fácilmente, como ocurre en buenos conductores como el cobre. Cuanto más amplio y adecuado sea el camino, más eficiente será el transporte de los electrones.</p>
+</blockquote>
 <p>En resumen, <strong>la resistencia eléctrica mide lo difícil que es para los electrones moverse por un material</strong>. En un circuito, usar materiales con baja resistencia es como conducir por una carretera despejada, mientras que materiales con alta resistencia dificultan el flujo, como un atasco en una carretera estrecha.</p>
-<p>Así:</p>
+<p>Así:
+    <a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../media/resistencia3.gif"><img align="right" alt="Resistencia" src="../media/resistencia3.gif" width="30%"></a></p>
 <ul>
 <li>
-<p>cuanta <strong>más resistencia eléctrica</strong> tenga un material (como el plástico),  <strong>menos número de electrones</strong> en movimiento habrá,</p>
+<p>cuanta <strong>más resistencia eléctrica</strong> tenga un material (como el plástico),  <strong>menos número de electrones</strong> en movimiento habrá,  </p>
 </li>
 <li>
 <p>cuanta <strong>menos resistencia eléctrica</strong> tenga un  material (como los metales), <strong>más número de electrones</strong> en movimiento habrá. </p>
 </li>
 </ul>
-<p><img align="right" alt="Óhmetro" src="../media/ohmetro.png" width="30%" /></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../media/ohmetro.png"><img align="right" alt="Óhmetro" src="../media/ohmetro.png" width="30%"></a></p>
 <p>La resistencia que ofrece un cuerpo se puede determinar con un aparato llamado <strong>óhmetro</strong>. Para esto, hay que desconectar el elemento que se quiere medir.</p>
 <p>Su unidad de medida es el <strong>ohmio</strong> <span class="arithmatex">\((\Omega)\)</span>. Si los valores de la resistencia son grandes, se emplean múltiplos como el kiloOhmio <span class="arithmatex">\((k\Omega)\)</span>.</p>
 <div class="arithmatex">\[
@@ -954,7 +650,7 @@ La <strong>Resistencia eléctrica <span class="arithmatex">\((R)\)</span></stron
 \]</div>
 <div class="admonition example">
 <p class="admonition-title">Experimenta</p>
-<p><img align="right" alt="Resistencia" src="../media/resistencia.png" width="40%" />
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../media/resistencia.png"><img align="right" alt="Resistencia" src="../media/resistencia.png" width="40%"></a>
 Si se toma un cilindro de hierro y un cilindro de cobre de idénticas medidas, y se mide su resistencia con un óhmetro, comprobaremos que sus valores son diferentes (el cobre ofrece menos resistencia).</p>
 <p>Asimismo, si cogemos dos trozos de cobre de diferentes dimensiones, comprobaremos que tienen resistencias diferentes.
 La resistencia eléctrica que presentan los materiales depende tres factores:</p>
@@ -967,107 +663,178 @@ La resistencia eléctrica que presentan los materiales depende tres factores:</p
 </li>
 </ul>
 </div>
-<h2 id="intensidad-de-corriente-i">Intensidad de Corriente <span class="arithmatex">\((I)\)</span><a class="headerlink" href="#intensidad-de-corriente-i" title="Permanent link">&para;</a></h2>
+<h2 id="intensidad-de-corriente-i"><span class="enumerate-headings-plugin enumerate-heading-plugin">8.3</span> Intensidad de Corriente <span class="arithmatex">\((I)\)</span><a class="headerlink" href="#intensidad-de-corriente-i" title="Permanent link">¶</a></h2>
 <div class="admonition abstract">
 <p class="admonition-title"> Intensidad de corriente</p>
-<p><img align="right" alt="Intensidad de coriente" src="../media/intensidad.gif" width="40%" />
-La <strong>Intensidad de corriente <span class="arithmatex">\((I)\)</span></strong> se define como el número de <em>cargas eléctricas negativas</em> (electrones) que atraviesan la sección de un conductor en la <em>unidad de tiempo</em> (en 1 segundo).</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../media/intensidad.gif"><img align="right" alt="Intensidad de coriente" src="../media/intensidad.gif" width="40%"></a>
+La <strong>Intensidad de corriente <span class="arithmatex">\((I)\)</span></strong> se define como el <strong>número</strong> de <strong>electrones</strong> (<em>cargas eléctricas negativas</em>) que atraviesan la sección de un punto del circuito en la <em>unidad de tiempo</em> (en <strong>1 segundo</strong>).</p>
+<div class="arithmatex">\[I = \frac{electrones}{segundo}\]</div>
 </div>
-<p><img align="right" alt="Intensidad de coriente" src="../media/intensidad.png" width="50%" /></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../media/intensidad.png"><img align="right" alt="Intensidad de coriente" src="../media/intensidad.png" width="50%"></a></p>
 <p>Para entender esta definición vamos a establecer otro símil. Imagina que los coches que circulan por una carretera son los electrones o cargas eléctricas y la carretera es el cable conductor. Cuanta más intensidad de tráfico haya, más coches circularán en un determinado tiempo; del mismo modo, cuanta más intensidad de corriente tengamos en un circuito, más electrones se encontrarán circulando.</p>
-<p>La unidad de medida de la Intensidad de Corriente es el Amperio (A). Cuando los valores de la intensidad son pequeños es más útil usar submúltiplos como el miliAmperio (mA).</p>
+<p>La unidad de medida de la Intensidad de Corriente es el <strong>Amperio</strong> (A). Cuando los valores de la intensidad son pequeños es más útil usar submúltiplos como el miliAmperio (mA).</p>
 <div class="arithmatex">\[
 1\:A = 1000 \:mA
 \]</div>
 <p>La Intensidad de Corriente se mide con un aparato llamado <strong>amperímetro</strong>. Éste se conecta en serie con los otros componentes del circuito, para que la corriente pase a través de él.</p>
-<h2 id="como-afectan-la-v-y-r-a-i">¿Cómo afectan la <span class="arithmatex">\(V\)</span> y <span class="arithmatex">\(R\)</span> a <span class="arithmatex">\(I\)</span>?<a class="headerlink" href="#como-afectan-la-v-y-r-a-i" title="Permanent link">&para;</a></h2>
-<p><img align="right" alt="Ley De Ohm" src="../media/leyohm.jpg" width="30%" /></p>
-<ul>
-<li>
-<p><strong><span class="arithmatex">\(V\)</span></strong> es <em>directamente proporcional</em> a <strong><span class="arithmatex">\(I\)</span></strong>:</p>
-<ul>
-<li>
-<p>Si <strong>aumenta la <span class="arithmatex">\(V\)</span></strong> de un circuito, entonces, el número de electrones en movimiento que pasan por un punto del circuito durante 1 segundo, aumenta. Entonces, <strong>aumentará la <span class="arithmatex">\(I\)</span></strong>.</p>
-</li>
-<li>
-<p>De ello se deduce, que si <strong>disminuye la <span class="arithmatex">\(V\)</span></strong>, <strong>disminuirá la <span class="arithmatex">\(I\)</span></strong>.</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong><span class="arithmatex">\(R\)</span></strong> es <em>inversamente proporcional</em> a <strong><span class="arithmatex">\(I\)</span></strong></p>
-<ul>
-<li>Si <strong>aumenta la <span class="arithmatex">\(R\)</span></strong> de un circuito, entonces, el número de electrones en movimiento que pasan por un punto del circuito durante 1 segundo, <strong>disminuye</strong>. Entonces, <strong>disminuirá la <span class="arithmatex">\(I\)</span></strong>.</li>
-<li>De ello se deduce, que si <strong>disminuye la <span class="arithmatex">\(R\)</span></strong>, <strong>aumentará la <span class="arithmatex">\(I\)</span></strong>.</li>
-</ul>
-</li>
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-
-                
-              </article>
-            </div>
-          
-          
+<h2 id="como-afectan-la-v-y-r-a-i"><span class="enumerate-headings-plugin enumerate-heading-plugin">8.4</span> ¿Cómo afectan la <span class="arithmatex">\(V\)</span> y <span class="arithmatex">\(R\)</span> a <span class="arithmatex">\(I\)</span>?<a class="headerlink" href="#como-afectan-la-v-y-r-a-i" title="Permanent link">¶</a></h2>
+<p>¿Cómo podemos hacer para que una <strong>bombilla brille más o menos</strong>? ¿Cómo podemos hacer para que un <strong>motor gire más rápido o más lento</strong>?</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="../media/leyohm.jpg"><img align="right" alt="Ley De Ohm" src="../media/leyohm.jpg" width="30%"></a></p>
+<blockquote>
+<p>La respuesta está en controlar la <strong>Intensidad de corriente <span class="arithmatex">\((I)\)</span></strong> que circula por el circuito.</p>
+</blockquote>
+<p>¿Y cómo podemos controlar la <strong>Intensidad de corriente <span class="arithmatex">\((I)\)</span></strong>?:<br>
+Como ya has podido comprobar, podemos controlar la <strong>Intensidad de corriente <span class="arithmatex">\((I)\)</span></strong> en un circuito modificando dos magnitudes: el <strong>Voltaje <span class="arithmatex">\((V)\)</span></strong> aplicado y la <strong>Resistencia <span class="arithmatex">\((R)\)</span></strong> del circuito.</p>
+<h3 id="relacion-voltaje-v-intensidad-i"><span class="enumerate-headings-plugin enumerate-heading-plugin">8.4.1</span> 📈 Relación Voltaje (<span class="arithmatex">\(V\)</span>) – Intensidad (<span class="arithmatex">\(I\)</span>)<a class="headerlink" href="#relacion-voltaje-v-intensidad-i" title="Permanent link">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th>Situación</th>
+<th>Efecto en los electrones</th>
+<th>Resultado en <span class="arithmatex">\(I\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Aumenta <span class="arithmatex">\(V\)</span></strong></td>
+<td>Más electrones pasan por un punto del circuito por segundo.</td>
+<td><strong>Aumenta <span class="arithmatex">\(I\)</span></strong></td>
+</tr>
+<tr>
+<td><strong>Disminuye <span class="arithmatex">\(V\)</span></strong></td>
+<td>Menos electrones pasan por un punto del circuito por segundo.</td>
+<td><strong>Disminuye <span class="arithmatex">\(I\)</span></strong></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Conclusión <span class="arithmatex">\(V\)</span>-<span class="arithmatex">\(I\)</span></p>
+<p><span class="arithmatex">\(V\)</span> es directamente proporcional a <span class="arithmatex">\(I\)</span>:  </p>
+</div>
+<h3 id="relacion-resistencia-r-intensidad-i"><span class="enumerate-headings-plugin enumerate-heading-plugin">8.4.2</span> 📉 Relación Resistencia (<span class="arithmatex">\(R\)</span>) – Intensidad (<span class="arithmatex">\(I\)</span>)<a class="headerlink" href="#relacion-resistencia-r-intensidad-i" title="Permanent link">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th>Situación</th>
+<th>Efecto en los electrones</th>
+<th>Resultado en <span class="arithmatex">\(I\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Aumenta <span class="arithmatex">\(R\)</span></strong></td>
+<td>Disminuye el flujo de electrones por segundo.</td>
+<td><strong>Disminuye <span class="arithmatex">\(I\)</span></strong></td>
+</tr>
+<tr>
+<td><strong>Disminuye <span class="arithmatex">\(R\)</span></strong></td>
+<td>Aumenta el flujo de electrones por segundo.</td>
+<td><strong>Aumenta <span class="arithmatex">\(I\)</span></strong></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Conclusión <span class="arithmatex">\(R\)</span>-<span class="arithmatex">\(I\)</span></p>
+<p><span class="arithmatex">\(R\)</span> es inversamente proporcional a <span class="arithmatex">\(I\)</span>:</p>
+</div>
+<h2 id="resumen-visual"><span class="enumerate-headings-plugin enumerate-heading-plugin">8.5</span> 🧩 Resumen visual<a class="headerlink" href="#resumen-visual" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Cambio</th>
+<th>Efecto sobre I</th>
+<th>Relación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>V</strong></td>
+<td>↑</td>
+<td>↑</td>
+<td>Directa</td>
+</tr>
+<tr>
+<td><strong>V</strong></td>
+<td>↓</td>
+<td>↓</td>
+<td>Directa</td>
+</tr>
+<tr>
+<td><strong>R</strong></td>
+<td>↑</td>
+<td>↓</td>
+<td>Inversa</td>
+</tr>
+<tr>
+<td><strong>R</strong></td>
+<td>↓</td>
+<td>↑</td>
+<td>Inversa</td>
+</tr>
+</tbody>
+</table>
+</article>
+</div>
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
-        </div>
-        
-          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
   Volver al principio
 </button>
-        
-      </main>
-      
-        <footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
+</main>
+<footer class="md-footer">
+<nav aria-label="Pie" class="md-footer__inner md-grid">
+<a aria-label="Anterior: 🪛 Ejercicios sobre esquemas eléctricos" class="md-footer__link md-footer__link--prev" href="../5_1_esquemas_ejercicios/">
+<div class="md-footer__button md-icon">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Anterior
+              </span>
+<div class="md-ellipsis">
+                🪛 Ejercicios sobre esquemas eléctricos
+              </div>
+</div>
+</a>
+<a aria-label="Siguiente: ❓ Cuestionario" class="md-footer__link md-footer__link--next" href="../cuestionarios/6_magnitudes_cuestionario/">
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Siguiente
+              </span>
+<div class="md-ellipsis">
+                ❓ Cuestionario
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
   
   
     Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
       Material for MkDocs
     </a>
-  
 </div>
-      
-    </div>
-  </div>
+</div>
+</div>
 </footer>
-      
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    
-    
-    
-      
-      
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.top", "navigation.expand", "navigation.instant", "navigation.instant.prefetch"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": {"provider": "mike"}}</script>
-    
-    
-      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
-      
-        <script src="../javascripts/katex.js"></script>
-      
-        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
-      
-        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
-      
-    
-  </body>
-</html>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.top", "navigation.tracking", "navigation.sections", "navigation.headings", "navigation.numbered.headings", "navigation.path", "navigation.expand", "navigation.instant", "navigation.footer", "navigation.instant.prefetch", "navigation.sections", "toc.integrate", "search.highlight", "search.suggest"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": {"provider": "mike"}}</script>
+<script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+<script src="../javascripts/katex.js"></script>
+<script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+<script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

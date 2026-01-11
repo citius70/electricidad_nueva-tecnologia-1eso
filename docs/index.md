@@ -2,18 +2,15 @@
 
 ![Static Badge](https://img.shields.io/badge/Elaborado%20por-Alberto%20Dur%C3%A1n-blue?style=flat)
 
-![Electricidad](media/electricidad.jpg){ align=right width=40% }
+![Electricidad](media/electricidad.jpg){ width=20% align=right }
 
-¡Bienvenidos/as al curso de **Electricidad básica**! En este curso, aprenderemos los conceptos fundamentales que explican cómo funciona uno de los fenómenos más importantes y útiles de la naturaleza: **la electricidad** ⚡. Este curso está diseñado para que comprendas los principios básicos que sustentan el funcionamiento de muchos dispositivos y tecnologías que usamos a diario.
+¡Bienvenidos/as al curso de **Electricidad básica**! En este curso, aprenderemos los conceptos fundamentales que explican cómo funciona uno de los fenómenos más importantes y útiles de la naturaleza: ⚡ **la electricidad** ⚡. Este curso está diseñado para que comprendas los principios básicos que sustentan el funcionamiento de muchos dispositivos y tecnologías que usamos a diario.
 
 A lo largo del curso, exploraremos los siguientes temas:
 
-
-
-
 <div class="grid cards" markdown>
 
--   :material-atom:{ .lg .middle } __El átomo__
+-   :material-atom: __El átomo__
 
     ---
 
@@ -21,7 +18,7 @@ A lo largo del curso, exploraremos los siguientes temas:
 
     
 
--   :material-lightning-bolt-outline:{ .lg .middle } __La corriente eléctrica__
+-   :material-lightning-bolt-outline: __La corriente eléctrica__
 
     ---
 
@@ -29,7 +26,7 @@ A lo largo del curso, exploraremos los siguientes temas:
 
    
 
--   :material-generator-stationary:{ .lg .middle } __El circuito eléctrico__
+-   :material-generator-stationary: __El circuito eléctrico__
 
     ---
 
@@ -37,7 +34,7 @@ A lo largo del curso, exploraremos los siguientes temas:
 
     
 
--   :material-electric-switch:{ .lg .middle } __Símbolos y esquemas eléctricos__
+-   :material-electric-switch: __Símbolos y esquemas eléctricos__
 
     ---
 

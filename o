@@ -1,0 +1,36 @@
+[33m42ca796[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: rebase (abort): returning to refs/heads/main
+[33m6ca5321[m HEAD@{1}: pull origin main --rebase (pick): ccccc
+[33m12772a2[m HEAD@{2}: pull origin main --rebase (pick): aaaaa
+[33m5c72e1c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{3}: pull origin main --rebase (start): checkout 5c72e1c5284ba14054927d35f7a82a352e08486b
+[33m42ca796[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{4}: reset: moving to HEAD
+[33mb4e6183[m HEAD@{5}: commit (merge): fith commit
+[33m42ca796[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{6}: commit: rdsf
+[33m02a600e[m HEAD@{7}: commit: ccccc
+[33mc46bb62[m HEAD@{8}: commit: ccccc
+[33mddd3d60[m HEAD@{9}: commit: aaaaa
+[33mbddc54e[m HEAD@{10}: commit: Eliminar emoji de bienvenida en el curso de Electricidad básica 1
+[33m18e7c8c[m HEAD@{11}: commit: Eliminar emoji de bienvenida en el curso de Electricidad básica
+[33m83a471b[m HEAD@{12}: commit: Agregar flujo de trabajo para desplegar MkDocs en GitHub Pages
+[33maffb1fa[m HEAD@{13}: pull --tags origin main: Fast-forward
+[33m6550a98[m HEAD@{14}: commit: Modificar el título de la sección de introducción a la electricidad
+[33m2bddfd9[m HEAD@{15}: commit: Actualizar la estructura del contenido sobre circuitos eléctricos y añadir sección de simbología eléctrica
+[33m2ee39ec[m HEAD@{16}: checkout: moving from main to main
+[33m2ee39ec[m HEAD@{17}: pull: Fast-forward
+[33m95c7b48[m HEAD@{18}: commit: aaaaa
+[33m0f85604[m HEAD@{19}: pull: Fast-forward
+[33m28f0e66[m HEAD@{20}: Branch: renamed refs/heads/main to refs/heads/main
+[33m28f0e66[m HEAD@{22}: commit: se
+[33mdba6834[m HEAD@{23}: pull: Merge made by the 'ort' strategy.
+[33mc88e27f[m HEAD@{24}: commit: tr
+[33mdc4e164[m HEAD@{25}: commit: do
+[33m2610b91[m HEAD@{26}: commit: ¨un
+[33md6b3503[m HEAD@{27}: commit: sept
+[33m9c79bb0[m HEAD@{28}: commit: sexta
+[33m04c539c[m HEAD@{29}: commit: quinta act
+[33m7060a2d[m HEAD@{30}: commit: Otra
+[33m56f2380[m HEAD@{31}: commit (merge): Nueva actualiz
+[33mb99a3f0[m HEAD@{32}: commit: Subir
+[33mc91c124[m HEAD@{33}: commit: Agregar flujo de trabajo de despliegue automático
+[33mf777d02[m HEAD@{34}: commit: Subida
+[33m0a833b7[m HEAD@{35}: Branch: renamed refs/heads/master to refs/heads/main
+[33m0a833b7[m HEAD@{37}: commit (initial): Versión 1.0.0

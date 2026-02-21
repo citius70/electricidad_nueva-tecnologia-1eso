@@ -1,3 +1,5 @@
+# Experimento
+
 Para experimentar el movimiento de los electrones y los fenómenos de atracción y repulsión, puedes llevar a cabo la experiencia del **péndulo electostático**.
 
 ![Átomo](media/pendulo.jpg){ align=right width=200px }

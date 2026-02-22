@@ -1,0 +1,24 @@
+.md-typeset .admonition,
+.md-typeset details {
+    background-color: var(--md-admonition-bg-color);
+    border: .075rem solid #448aff;
+    border-radius: .2rem;
+    box-shadow: var(--md-shadow-z1);
+    color: var(--md-admonition-fg-color);
+    display: flow-root;
+    font-size: 0.7rem; 
+    margin: 1.5625em 0;
+    padding: 0 .6rem;
+    transition: box-shadow 125ms
+}
+
+
+.md-typeset .admonition p,
+.md-typeset details p {
+  font-size: 0.7rem;
+} 
+
+:root {
+  --md-text-font: "Comic Relief", Delius", "Chewy", "Geom", "Sour Gummy", "Patrick Hand", sans-serif;
+}
+

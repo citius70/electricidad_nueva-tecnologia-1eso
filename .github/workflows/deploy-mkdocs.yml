@@ -23,7 +23,8 @@ jobs:
     # 3. Instalar las dependencias necesarias para MkDocs
     - name: Install dependencies
       run: |
-        pip install mkdocs-material
+        pip install mkdocs-
+        pip install mkdocs-material mkdocs-enumerate-headings-plugin
 
     # 4. Generar y desplegar el sitio en GitHub Pages
     - name: Deploy to GitHub Pages

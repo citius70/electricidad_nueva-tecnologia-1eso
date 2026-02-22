@@ -15,6 +15,7 @@ Los fenómenos eléctricos tiene su origen en la **estructura interna de la mate
 !!! note "Definición de Átomo"
     El **átomo** es el componente fundamental de la materia, y proporciona sus propiedades.
 
+El átomo proporciona las **propiedades** a la materia significa que todo lo que percibimos de una sustancia (su color, dureza, conductividad, punto de fusión, reactividad química, etc.) viene determinado por la estructura de sus átomos y cómo estos se relacionan entre sí.
 
 ## Estructura del átomo
 

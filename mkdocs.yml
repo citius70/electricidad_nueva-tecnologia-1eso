@@ -33,9 +33,9 @@ nav:
   # - Blog:
   #   - blog/index.md
 
-site_url: https://citius70.github.io/electricidad-tecnologia-1eso/
-repo_url: https://github.com/citius70/electricidad-tecnologia-1eso.git
-repo_name: citius70/electricidad-tecnologia-1eso
+site_url: https://citius70.github.io/electricidad_nueva-tecnologia-1eso/
+repo_url: https://github.com/citius70/electricidad_nueva-tecnologia-1eso.git
+repo_name: citius70/electricidad_nueva-tecnologia-1eso
 
 theme:
   navigation_depth: 2

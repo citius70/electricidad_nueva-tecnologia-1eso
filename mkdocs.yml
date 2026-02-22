@@ -20,15 +20,15 @@ nav:
   - ❓ Cuestionario: cuestionarios/6_magnitudes_cuestionario.md 
   - 9. LA LEY DE OHM: 7_ley_ohm.md
   - ❓ Cuestionario: cuestionarios/7_ohm_cuestionario.md
-  - 📒 Ejercicios: 
-    - Ficha 1: ejercicios/1_atomo.md
-    - Ficha 2: ejercicios/2_corriente.md
-    - Ficha 3: ejercicios/3_circuito.md
-    - Ficha 4: ejercicios/4_simbolos.md
-    - Ficha 5: ejercicios/5_magnitudes.md
-    - Ficha 6: ejercicios/6_ohm.md
+  # - 📒 Ejercicios: 
+  #   - Ficha 1: ejercicios/1_atomo.md
+  #   - Ficha 2: ejercicios/2_corriente.md
+  #   - Ficha 3: ejercicios/3_circuito.md
+  #   - Ficha 4: ejercicios/4_simbolos.md
+  #   - Ficha 5: ejercicios/5_magnitudes.md
+  #   - Ficha 6: ejercicios/6_ohm.md
   - VERSIÓN PDF: pdf/document.pdf
-  - Actividad introductoria: 0_actividad_introductoria.md
+  #- Actividad introductoria: 0_actividad_introductoria.md
 
   # - Blog:
   #   - blog/index.md
